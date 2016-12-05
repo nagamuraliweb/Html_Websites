@@ -1,0 +1,137 @@
+body{margin: 0;font-family: 'Roboto Condensed', sans-serif !important;}
+.slicknav_menu{display:none;}
+.logo{display: none;position: fixed;top: 2px;left: 2px;z-index: 100000;}
+header{background: url(img/menu-back-black.png);position: fixed;width: 100%;top: 0px;z-index: 1000;}
+#nav{padding: 10px 0;margin:0 auto;display: table;list-style: none;}
+#nav li{display: inline-block;margin: 0 30px;}
+#nav li a{text-decoration: none;color: #fff;font-size: 20px;}
+footer{background: url(img/menu-back-black.png);position: fixed;width: 100%;padding: 5px 0;height: 37px;bottom: 0px;text-align: center;z-index: 1000;}
+footer ul{margin: 0;padding: 0;list-style: none;}
+footer ul li {
+    display: block;
+    float: left;
+    padding-right: 8px;
+}
+footer ul li a {
+    width: 31px;
+    height: 30px;
+    background: url(img/footer-icons.png) no-repeat;
+    display: block;
+}
+footer ul li a.footer_twitter:hover {
+  background-position: 0px -36px;
+}
+
+footer ul li a.footer_facebook {
+  background-position: -36px 0px;
+}
+
+footer ul li a.footer_facebook:hover {
+  background-position: -36px -36px;
+}
+
+footer ul li a.footer_linkedin {
+  background-position: -72px 0px;
+}
+
+footer ul li a.footer_linkedin:hover {
+  background-position: -72px -36px;
+}
+
+footer ul li a.footer_pinterest {
+  background-position: -108px 0px;
+}
+
+footer ul li a.footer_pinterest:hover {
+  background-position: -108px -36px;
+}
+
+footer ul li a.footer_instagram {
+  background-position: -144px 0px;
+}
+
+footer ul li a.footer_instagram:hover {
+  background-position: -144px -36px;
+}
+footer span{float: right;margin-top: 5px;color: #fff;font-size: 14px;}
+#banner{width: 100%;float: left;}
+.bxslider{margin: 0;padding: 0;list-style: none;}
+.bxslider li{position: relative;}
+.slide-desc{background: url("img/slide_desc.png") repeat scroll 0 0 transparent;
+    right: 0;
+    padding: 15px;
+    position: absolute;
+    top: 15%;
+    max-width: 55%;
+	display:inline-block;}
+.slide-desc p{color: #fff;font-size: 16px;text-align: justify;line-height: 24px;}
+#ourwork{background: #E45028;width: 100%;float: left;padding:30px 0;position: relative;border-top: 7px solid #292828;}
+.video1,.video2,.video3,.video4,.video5{position: relative;}
+.you{position: absolute;z-index: 100;}
+#ourwork h1{color: #fff;font-size: 30px;}
+#ourwork p{color: #fff;font-size: 16px;line-height: 24px;}
+#about{background: #cccccc;width: 100%;float: left;padding:30px 0;position: relative;border-top: 7px solid #292828;}
+#about h1{color: #333;font-size: 30px;}
+#about p{color: #333;font-size: 16px;line-height: 24px;text-align: justify;}
+.top{color: #656565;
+    position: absolute;
+    padding: 10px 20px;
+    background: #232323;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    left: 50%;margin-left:-63px;
+    margin-top: -23px;
+    z-index: 500;top:0;color: #F15722;font-size: 20px;}
+#contact{background: url(img/contact-back.jpg) no-repeat;color: #eceaea;background-size: 100% 100%;width: 100%;float: left;padding:30px 0 60px 0;position: relative;border-top: 7px solid #292828;}
+.story h3 {
+    font-weight: normal;
+    font-size: 36px;
+    color: #f15722;
+}
+.phone {
+    background: url(img/phone.png) no-repeat;
+    width: 50%;
+    height: 100%;
+    z-index: 2;
+    position: absolute;
+    right: 2%;
+    top: 0;
+}
+#footer_inside02 strong {
+    color: #FFFFFF;
+    font-weight: normal;
+}
+#footer_inside02 {
+    padding-top: 30px;
+    color: #f15722;
+    line-height: 25px;font-size: 16px;
+}
+.story h4 {
+    font-weight: normal;
+    font-size: 30px;
+    color: #f15722;
+    padding-bottom: 25px;
+    padding-top: 35px;
+}
+.story h5 {
+    font-weight: normal;
+    font-size: 20px;
+    color: #f15722;
+    padding-bottom: 5px;
+}
+.story p{color: #fff;font-size: 16px;}
+.wrapwidth1{max-width: 800px;}
+.wrapwidth2{max-width: 900px;}
+#footer_inside02 a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.scroll {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    cursor: pointer;z-index: 1050;
+}
+.popup{width: 280px;height: 200px;position: absolute;z-index: 100;cursor: pointer;}

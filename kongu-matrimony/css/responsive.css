@@ -1,0 +1,45 @@
+@media (min-width: 1200px){
+    .container {
+        width: 1100px !important;
+    }
+}
+@media screen and (max-width: 767px) {
+    .slicknav_menu{display: block;}
+    #mainmenu{display: none;}
+    .header-top{border-bottom: 2px solid #a70c12;}
+    .profiles-view{text-align: center;}
+    .copyright p{margin-bottom: 0;}
+    .phoneno{margin-top: 0;}
+    .featured1{margin-bottom: 2%;}
+    .phone{margin-top: 10px;}
+    .cart{margin-top: 4px;margin-bottom: 10px;position: relative;right: 15px;}
+    .privacy{line-height: 20px;}
+    .address-left h5{margin: 10px 0px 10px 0px;}
+    .footer-top{padding-bottom: 10px;}
+    .logo{display: block;margin: auto;margin-top: 2px;margin-bottom: 5px;}
+    .select{font-size: 12px;padding: 2px 2px;}
+    .advanced1 tr td{padding: 5px 4px;}
+    .income{margin-top: 10px;}
+    .age3{margin-bottom: 5px;}
+    .feet{margin-bottom: 5px;}
+    .education{width:160px;}
+    .advanced1 tr td:first-child{min-width: 90px;}
+    .search_btn{margin-right: 0px;display: block;margin: auto;float: none;}
+    .home-profile{margin-bottom: 10px;}
+    .fullwidth{  padding-bottom: 0px;margin: 0px 10px 10px 10px;}
+    .home-sidebar{margin-top: 0;}
+    .home-sidebar h3{margin-top: 5px;}
+    .home-about{width: 185px;}
+    .weds img{margin-right: 15px;}
+    .membership{max-width: 280px;}
+    .weds{display: table;margin: auto;}
+    .banner-form{width: 300px;display: inline-block;margin: auto;float: none;margin-left: 0;position: relative;margin-bottom: 30px;margin-top: 12px;}
+    .sear{width: 146px;}
+    .reg{width: 150px;}
+    .banner{margin-bottom: 10px;height: auto;background: none;text-align: center;}
+    .tab-form{width: 300px;}
+	.bx-wrapper .bx-controls-direction a{width:auto !important;height:auto !important;}
+	.member h1{display:table;margin:auto;padding-top:10px;}
+	.as h1{display:table;margin:auto;padding-top:10px;}
+	.profile-detail{margin-bottom:3%;}
+}
